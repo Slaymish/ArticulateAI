@@ -111,7 +111,7 @@ def chat_complete(starting_prompt, transcript):
     )
 
     # Save response to file
-    with open("Responces/" + get_custom_timestamp() + ".txt", "w") as file:
+    with open("Responses/" + get_custom_timestamp() + ".txt", "w") as file:
         file.write(chat_completion.choices[0].message.content)
 
     return chat_completion.choices[0].message.content
