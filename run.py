@@ -1,43 +1,48 @@
 import util
 
-# Starting prompts optins
+# List of prompt options to begin the process
 starting_prompts = [
-        "The transcript below is of someone discussing how to make a type of food. Format the information as a recipe.",
-        "The transcript below is of someone talking about a random subject. Summarize what they were talking about.",
-        "The transcript below is of someone trying to get help with a math problem. Concisely explain how to solve the problem. Go step by step.",
-        "Answer the following question.",
-    ]
+    "The transcript below is of someone discussing how to make a type of food. Format the information as a recipe.",
+    "The transcript below is of someone talking about a random subject. Summarize what they were talking about.",
+    "The transcript below is of someone trying to get help with a math problem. Concisely explain how to solve the problem. Go step by step.",
+    "Answer the following question."
+]
 
-
-while(1):
-    # Get the starting prompt
+# Main loop continues until user decides to stop
+while True:
+    # Display the prompt options
     print("----------------------------------------------------------------")
     print("Starting prompts:")
-    for i in range(len(starting_prompts)):
-        print(str(i) + ". " + starting_prompts[i])
+    for i, prompt in enumerate(starting_prompts):
+        print(f"{i}. {prompt}")
     print("----------------------------------------------------------------")
-    starting_prompt = starting_prompts[int(input("Which starting prompt would you like to use? "))]
+    
+    # Request user to select a prompt
+    prompt_index = int(input("Which starting prompt would you like to use? "))
+    selected_prompt = starting_prompts[prompt_index]
     print("----------------------------------------------------------------")
-    starting_prompt = "You are a helpful bot. " + starting_prompt + "\n\n"
+    
+    # Prepend context to the selected prompt
+    starting_prompt = f"You are a helpful bot. {selected_prompt}\n\n"
 
-    # Get the audio length    
+    # Request user to specify the audio length for recording
     RECORD_SECONDS = int(input("How many seconds of audio would you like to record? "))
 
-    # Record audio
+    # Record audio using the specified duration
     util.record_audio(RECORD_SECONDS=RECORD_SECONDS)
 
+    # Transcribe the recorded audio
     transcript = util.transribe_audio().text
 
-    # save transcript to file
-    with open("Transcripts/" + util.get_custom_timestamp() + ".txt", "w") as file:
+    # Save the transcript to a text file, using a custom timestamp for the filename
+    timestamp = util.get_custom_timestamp()
+    with open(f"Transcripts/{timestamp}.txt", "w") as file:
         file.write(transcript)
-            
-
-    starting_prompt = "You are a helpful bot. You read the transcript below and reply with what would fit best from the context in the transcript. For example, if the subject is how to make food, you could format the information as a rescipe. If it was jsut two friends talking, just summarize what they were talking and if you had any additional points add them. If no request is said, just summarize what is happening in the transcription.\n\n"
-
+    
+    # Generate the chat completion
     chat_completion = util.chat_complete(starting_prompt=starting_prompt, transcript=transcript)
 
-    # print the chat completion
+    # Print the chat completion
     print("----------------------------------------------------------------")
     print(".")
     print(".")
@@ -48,11 +53,9 @@ while(1):
     print(".")
     print("----------------------------------------------------------------")
 
+    # Check the length of the chat completion. If it's short enough, use text-to-speech to vocalize it.
     if len(chat_completion) < 100:
         print("Starting TTS")
-        # evelenlabs tts
         util.text_to_speak(chat_completion)
-
     else:
         print("Response too long for tts")
-
