@@ -26,3 +26,9 @@ python3 run.py
 By following these instructions, you'll have the Speech Assistant up and running, ready to transcribe your speech and provide insightful responses.
 
 Note: Make sure to obtain appropriate API keys and credentials for the Openai API and Elevenlabs' text-to-speech service before running the program. Place these in your .env file
+
+***
+### 📝 License
+
+Copyright © 2021 [Avneesh Agarwal](https://github.com/avneesh0612). <br />
+This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
