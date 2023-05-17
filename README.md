@@ -9,7 +9,7 @@ git clone https://github.com/Slaymish/SpeachAssistant
 cd SpeachAssistant
 mkdir Transcripts
 mkdir Responses
-touch .env
+cp env.template .env
 ```
 
 Install the required dependencies by running the following command:
@@ -25,4 +25,4 @@ python3 run.py
 
 By following these instructions, you'll have the Speech Assistant up and running, ready to transcribe your speech and provide insightful responses.
 
-Note: Make sure to obtain appropriate API keys and credentials for the Whisper API and Elevenlabs' text-to-speech service before running the program. **and save them to a .env file** in the pwd
+Note: Make sure to obtain appropriate API keys and credentials for the Openai API and Elevenlabs' text-to-speech service before running the program. Place these in your .env file
