@@ -5,8 +5,8 @@ The Speech Assistant is a powerful tool that utilizes the Whisper API for speech
 To set up the Speech Assistant, follow these steps:
 
 ```
-git clone https://github.com/Slaymish/SpeachAssistant
-cd SpeachAssistant
+git clone https://github.com/Slaymish/CLISpeechAssistant
+cd CLISpeechAssistant
 mkdir Transcripts
 mkdir Responses
 cp env.template .env
