@@ -4,6 +4,14 @@ The Speech Assistant is a powerful tool that utilizes the Whisper API for speech
 ## Installation Instructions
 To set up the Speech Assistant, follow these steps:
 
+```
+git clone https://github.com/Slaymish/SpeachAssistant
+cd SpeachAssistant
+mkdir Transcripts
+mkdir Responses
+touch .env
+```
+
 Install the required dependencies by running the following command:
 
 ```
