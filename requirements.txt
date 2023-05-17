@@ -3,3 +3,4 @@ ffmpeg-python
 pyaudio
 elevenlabs
 wave
+python-dotenv
