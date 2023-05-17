@@ -33,7 +33,7 @@ By following these instructions, you'll have the Speech Assistant up and running
 Note: Make sure to obtain appropriate API keys and credentials for the Openai API and Elevenlabs' text-to-speech service before running the program. Place these in your .env file
 
 ***
-### 📝 License
+#### 📝 License
 
-Copyright © 2021 [Hamish Burke](https://github.com/Slaymish). <br />
+Copyright © 2023 [Hamish Burke](https://github.com/Slaymish). <br />
 This project is [MIT](https://github.com/Slaymish/SpeechToSpeechAssistant/blob/main/LICENSE) licensed. 
