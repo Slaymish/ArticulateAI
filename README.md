@@ -30,5 +30,5 @@ Note: Make sure to obtain appropriate API keys and credentials for the Openai AP
 ***
 ### 📝 License
 
-Copyright © 2021 [Avneesh Agarwal](https://github.com/avneesh0612). <br />
-This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
+Copyright © 2021 [Hamish Burke](https://github.com/Slaymish). <br />
+This project is [MIT](https://github.com/Slaymish/SpeechToSpeechAssistant/main/LICENSE) licensed. 
