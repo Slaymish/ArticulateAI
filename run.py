@@ -5,8 +5,17 @@ starting_prompts = [
     "The transcript below is of someone discussing how to make a type of food. Format the information as a recipe.",
     "The transcript below is of someone talking about a random subject. Summarize what they were talking about.",
     "The transcript below is of someone trying to get help with a math problem. Concisely explain how to solve the problem. Go step by step.",
+    "The transcript below is of a debate on a particular subject. Identify the main points of each side.",
+    "The transcript below is of a lecture on a scientific topic. Provide a clear and simplified explanation of the topic.",
+    "The transcript below is of a person describing a series of events. Create a timeline based on the information provided.",
+    "The transcript below is of someone describing a complex process. Break down the steps of the process in an easy-to-understand way.",
+    "The transcript below is a story. Summarize the story and identify its main themes.",
+    "The transcript below is a description of a problem someone is facing. Propose a solution to the problem.",
+    "The transcript below is a review of a book or movie. Provide a brief overview based on the reviewer's opinion.",
+    "The transcript below is a conversation in a foreign language. Translate the conversation to English.",
     "Answer the following question."
 ]
+
 
 # Main loop continues until user decides to stop
 while True:
