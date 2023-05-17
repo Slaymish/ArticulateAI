@@ -48,6 +48,11 @@ while(1):
     print(".")
     print("----------------------------------------------------------------")
 
-    # evelenlabs tts
-    util.text_to_speak(chat_completion)
+    if len(chat_completion) < 100:
+        print("Starting TTS")
+        # evelenlabs tts
+        util.text_to_speak(chat_completion)
+
+    else:
+        print("Response too long for tts")
 
