@@ -31,4 +31,4 @@ Note: Make sure to obtain appropriate API keys and credentials for the Openai AP
 ### 📝 License
 
 Copyright © 2021 [Hamish Burke](https://github.com/Slaymish). <br />
-This project is [MIT](https://github.com/Slaymish/SpeechToSpeechAssistant/main/LICENSE) licensed. 
+This project is [MIT](https://github.com/Slaymish/SpeechToSpeechAssistant/blob/main/LICENSE) licensed. 
