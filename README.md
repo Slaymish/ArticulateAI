@@ -1,12 +1,12 @@
 # Speech Assistant
-The Speech Assistant is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
+SpeechToSpeechAssistant is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
 
 ## Installation Instructions
 To set up the Speech Assistant, follow these steps:
 
 ```
-git clone https://github.com/Slaymish/CLISpeechAssistant
-cd CLISpeechAssistant
+git clone https://github.com/Slaymish/SpeechToSpeechAssistant
+cd SpeechToSpeechAssistant
 mkdir Transcripts
 mkdir Responses
 cp env.template .env
