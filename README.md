@@ -14,11 +14,11 @@ By using the potent Whisper API for transcription, it brings in the robust capab
 
 ## 🗣 Examples
 
-- Record a lecture, will reply with formatted notes on the spoken topic
-- Record a debate between two people, and take note of the main points of both sides
-- Record someone decribing how to make a certain food, and format the information as a recipe.
-- Translate a conversaton in a foreign language to English
-- _plus others..._
+- Record a lecture and receive comprehensively formatted notes.
+- Transcribe a debate, noting down key points of both sides.
+- Listen to a food recipe description and format it professionally.
+- Translate a conversation in a foreign language to English.
+- _And so much more..._
 
 
 
