@@ -6,7 +6,15 @@
     <a href="https://twitter.com/intent/tweet?text=Check%20out%20ArticulateAI,%20an%20exciting%20project%20on%20GitHub.&url=https://github.com/Slaymish/ArticulateAI&hashtags=AI,ArticulateAI,opensource,github,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 </p><br/><br/>
 
-ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
+ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on size of transcription) to provide intelligent responses, depending on the prompt setting chossen initially. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
+
+## Examples
+
+- Record a lecture, will reply with formatted notes on the spoken topic
+- Record a debate between two people, and take note of the main points of both sides
+- Record someone decribing how to make a certain food, and format the information as a recipe.
+- Translate a conversaton in a foreign language to English
+- _and more..._
 
 
 
