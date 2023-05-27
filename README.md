@@ -1,10 +1,8 @@
 # Speech Assistant
 SpeechToSpeechAssistant is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
 
-Todo:
-- [X] Create CLI version
-- [ ] Add webgui
-- [ ] Use with other LLM's
+[![Stargazers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/stars/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/stargazers)
+
 
 ## Installation Instructions
 To set up the Speech Assistant, follow these steps:
