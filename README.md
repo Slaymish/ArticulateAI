@@ -21,7 +21,7 @@ By using the potent Whisper API for transcription, it brings in the robust capab
 - _And so much more..._
 
 
-
+***
 
 # 🚀 Get Started
 To set up ArticulateAI, follow these steps:
