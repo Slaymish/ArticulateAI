@@ -23,8 +23,8 @@ By using the potent Whisper API for transcription, it brings in the robust capab
 
 
 
-## ⚡️ Installation Instructions
-To set up the Speech Assistant, follow these steps:
+# 🚀 Get Started
+To set up ArticulateAI, follow these steps:
 
 ```
 git clone https://github.com/Slaymish/ArticulateAI
@@ -34,20 +34,21 @@ mkdir Responses
 cp env.template .env
 ```
 
-Install the required dependencies by running the following command:
+Next, install the necessary dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-Execute the script using:
+Finally, kickstart the AI:
+
 ```
 python3 run.py
 ```
 
-By following these instructions, you'll have the Speech Assistant up and running, ready to transcribe your speech and provide insightful responses.
+This sets up your personal Speech Assistant, ready to transcribe and respond in insightful ways.
 
-Note: Make sure to obtain appropriate API keys and credentials for the Openai API and Elevenlabs' text-to-speech service before running the program. Place these in your .env file
+Note: Don't forget to secure the requisite API keys and credentials for the OpenAI API and Elevenlabs' text-to-speech service before getting the program up and running. Place these in your .env file
 
 ***
 
