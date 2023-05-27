@@ -7,8 +7,8 @@
 </p><br/><br/>
 
 ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on size of transcription) to provide intelligent responses, depending on the prompt setting chossen initially. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
-
-## Examples
+<br/>
+## 🗣 Examples
 
 - Record a lecture, will reply with formatted notes on the spoken topic
 - Record a debate between two people, and take note of the main points of both sides
