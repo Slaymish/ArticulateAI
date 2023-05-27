@@ -1,7 +1,7 @@
 # Speech Assistant
 SpeechToSpeechAssistant is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
 
-[![Stargazers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/stars/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/stargazers)
+
 
 
 ## Installation Instructions
@@ -29,6 +29,13 @@ python3 run.py
 By following these instructions, you'll have the Speech Assistant up and running, ready to transcribe your speech and provide insightful responses.
 
 Note: Make sure to obtain appropriate API keys and credentials for the Openai API and Elevenlabs' text-to-speech service before running the program. Place these in your .env file
+
+***
+
+## Supporters
+
+[![Stargazers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/stars/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/stargazers)
+[![Forkers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/forks/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/network/members)
 
 ***
 #### 📝 License
