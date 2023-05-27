@@ -12,7 +12,7 @@ ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcr
 
 
 
-## Installation Instructions
+## ⚡️ Installation Instructions
 To set up the Speech Assistant, follow these steps:
 
 ```
