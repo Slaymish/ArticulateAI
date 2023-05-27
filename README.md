@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://twitter.com/intent/tweet?text=Check%20out%20ArticulateAI,%20an%20exciting%20project%20on%20GitHub.&url=https://github.com/Slaymish/ArticulateAI&hashtags=AI,ArticulateAI,opensource,github,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
-</p><br/><br/>
+</p><br/>
 
 <h4 align="center">✨ <b>ArticulateAI</b> is a groundbreaking tool designed to revolutionize the way we interact with spoken content. </h4>
 By using the potent Whisper API for transcription, it brings in the robust capabilities of OpenAI's GPT-3 or GPT-4 to produce intelligent responses. Further enhancing the user experience, it employs Elevenlabs' state-of-the-art text-to-speech technology for crisp, clear audio output.
