@@ -9,7 +9,9 @@
 <h4 align="center">✨ <b>ArticulateAI</b> is a groundbreaking tool designed to revolutionize the way we interact with spoken content. </h4>
 By using the potent Whisper API for transcription, it brings in the robust capabilities of OpenAI's GPT-3 or GPT-4 to produce intelligent responses. Further enhancing the user experience, it employs Elevenlabs' state-of-the-art text-to-speech technology for crisp, clear audio output.
 
+
 <br/>
+
 ## 🗣 Examples
 
 - Record a lecture, will reply with formatted notes on the spoken topic
