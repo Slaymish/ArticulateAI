@@ -1,5 +1,5 @@
 <p align="center"><a href="https://github.com/Slaymish/ArticulateAI"><img src="http://randojs.com/images/shapeShifterGrayAlphaBackground.gif" alt="Gray shape shifter" height="60"/></a></p>
-<h1 align="center">ArticulateAI</h1>
+<h1 align="center">🔊 ArticulateAI 🧠</h1>
 <p align="center">Listen, transcribe, reply - ArticulateAI masters the art of conversation.</p>
 
 <p align="center">
