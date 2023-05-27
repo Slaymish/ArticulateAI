@@ -1,5 +1,7 @@
-# Speech Assistant
-SpeechToSpeechAssistant is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
+<h1 align="center">ArticulateAI</h1>
+<p align="center">Listen, transcribe, reply - ArticulateAI masters the art of conversation.</p>
+
+ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcription. It leverages the advanced capabilities of OpenAI's GPT-3 or GPT-4 (depending on the size of the transcription) to provide intelligent responses. Additionally, Elevenlabs' text-to-speech technology is employed for high-quality audio output.
 
 
 
@@ -8,8 +10,8 @@ SpeechToSpeechAssistant is a powerful tool that utilizes the Whisper API for spe
 To set up the Speech Assistant, follow these steps:
 
 ```
-git clone https://github.com/Slaymish/SpeechToSpeechAssistant
-cd SpeechToSpeechAssistant
+git clone https://github.com/Slaymish/ArticulateAI
+cd ArticulateAI
 mkdir Transcripts
 mkdir Responses
 cp env.template .env
@@ -34,7 +36,7 @@ Note: Make sure to obtain appropriate API keys and credentials for the Openai AP
 
 ## 👏 Supporters
 
-[![Stargazers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/stars/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/stargazers)
+[![Stargazers repo roster for @Slaymish/ArticulateAI](https://reporoster.com/stars/dark/Slaymish/ArticulateAI)](https://github.com/Slaymish/ArticulateAI/stargazers)
 
 
 ***
