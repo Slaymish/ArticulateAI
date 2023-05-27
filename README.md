@@ -2,7 +2,6 @@
 <p align="center">Listen, transcribe, reply - ArticulateAI masters the art of conversation.</p>
 
 <p align="center">
-    <a href="https://github.com/Slaymish/ArticulateAI"><img src="http://randojs.com/images/2.3kb-shield.png" height="20"/></a>
     <a href="https://twitter.com/intent/tweet?text=Check%20out%20ArticulateAI,%20an%20exciting%20project%20on%20GitHub.&url=https://github.com/Slaymish/ArticulateAI&hashtags=AI,ArticulateAI,opensource,github,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 </p><br/><br/>
 
