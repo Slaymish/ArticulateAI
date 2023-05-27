@@ -14,7 +14,7 @@ ArticulateAI is a powerful tool that utilizes the Whisper API for speech transcr
 - Record a debate between two people, and take note of the main points of both sides
 - Record someone decribing how to make a certain food, and format the information as a recipe.
 - Translate a conversaton in a foreign language to English
-- _and more..._
+- _plus others..._
 
 
 
