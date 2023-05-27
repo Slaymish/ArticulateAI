@@ -35,7 +35,7 @@ Note: Make sure to obtain appropriate API keys and credentials for the Openai AP
 ## Supporters
 
 [![Stargazers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/stars/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/stargazers)
-[![Forkers repo roster for @Slaymish/SpeechToSpeechAssistant](https://reporoster.com/forks/dark/Slaymish/SpeechToSpeechAssistant)](https://github.com/Slaymish/SpeechToSpeechAssistant/network/members)
+
 
 ***
 #### 📝 License
