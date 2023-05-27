@@ -50,3 +50,6 @@ Note: Make sure to obtain appropriate API keys and credentials for the Openai AP
 
 Copyright © 2023 [Hamish Burke](https://github.com/Slaymish). <br />
 This project is [MIT](https://github.com/Slaymish/SpeechToSpeechAssistant/blob/main/LICENSE) licensed. 
+
+
+<p align="center"><a href="https://github.com/Slaymish/ArticulateAI#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
